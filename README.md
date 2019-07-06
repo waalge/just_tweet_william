@@ -17,3 +17,12 @@ Linux/ MacOS users: queue a job using
 on a machine that is always or often 
 connected to the web. 
 
+Add crontab job with 
+```
+crontab -e
+```
+The following will run the script every minute. 
+```
+*/1 * * * * python3 ~/PATH/TO/just_tweet_william/update_profile.py
+```
+
