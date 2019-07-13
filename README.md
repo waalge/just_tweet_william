@@ -1,6 +1,6 @@
 # just_tweet_william
 
-Regularly change twitter a bio to a Just William quote.
+Regularly change a twitter bio to a Just William quote.
 
 ## Overview 
 
