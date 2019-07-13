@@ -1,23 +1,24 @@
 # just_tweet_william
-Regularly change twitter bio to a Just William quote
+
+Regularly change twitter bio to a Just William quote.
 
 ## Requirements 
 
 Setup a [twitter app](https://developer.twitter.com/en/application/). 
 This will give you secret keys to play with the twitter API. 
+Put the secret keys in a new file titled ``my_secrets.py`` 
+with the variable names as demo-ed in ``my_sea_crates.py``. 
 
-The script uses the ``python3`` module [python-twitter](https://github.com/bear/python-twitter). 
+The script ``update_profile.py`` uses the ``python3`` module [python-twitter](https://github.com/bear/python-twitter). 
 
-Get some quotes from your favourite book. 
-I stripped mine from the speech in
+Get some quotes from your favourite book and put one per line in ``quotes.txt``. 
+I stripped mine from the speech appearing in
 [Just William](https://www.gutenberg.org/ebooks/34414)
 
-Linux/ MacOS users: queue a job using 
-[cron](https://en.wikipedia.org/wiki/Cron)
-on a machine that is always or often 
-connected to the web. 
+Unix users can queue a job using [cron](https://en.wikipedia.org/wiki/Cron).
+On a machine that is always or often connected to the web. 
 
-Add crontab job with 
+Add a crontab job with 
 ```
 crontab -e
 ```
